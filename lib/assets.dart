@@ -1,7 +1,7 @@
 import 'dart:ui';
 
-class Strings{
-  Strings._();
+class Constants{
+  Constants._();
 
   static const isSubscribed=false;
 

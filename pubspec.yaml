@@ -11,6 +11,7 @@ dependencies:
   shared_preferences: ^2.2.2
   dio: ^5.3.4
   connectivity_plus: ^5.0.2
+  firebase_core: ^2.24.2
 
   flutter: 
     sdk: flutter
@@ -28,12 +29,8 @@ flutter:
     - assets/images/
     - assets/svgs/
 
-#  fonts:
-#    - family: zen_dot
-#      fonts:
-#        - asset: assets/fonts/zendots.ttf
-#
-#    - family: albert_sans
-#      fonts:
-#        - asset: assets/fonts/albertsans.ttf
+  fonts:
+    - family: albert_sans
+      fonts:
+        - asset: assets/fonts/albertsans.ttf
 
