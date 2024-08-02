@@ -23,6 +23,8 @@ class SplashController extends GetxController {
         Timer(const Duration(seconds: 2),(){
             Get.offNamed(Routes.HOME);
         });
+      }else{
+        Get.toNamed(Routes.NO_INTERNET);
       }
     });
     

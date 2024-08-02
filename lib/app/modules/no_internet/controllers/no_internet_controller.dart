@@ -22,12 +22,4 @@ class NoInternetController extends GetxController {
     super.onClose();
   }
 
-  void reload(){
-    Connectivity().checkConnectivity().then((value) {
-      if(value!=ConnectivityResult.none)
-      if(Get.currentRoute==Routes.NO_INTERNET){
-        Get.offNamed(Get.previousRoute);
-      }
-    });
-  }
 }
